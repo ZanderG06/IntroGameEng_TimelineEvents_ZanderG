@@ -10,7 +10,6 @@ public class Trigger : MonoBehaviour
         if (other.CompareTag("Trigger"))
         {
             timeLine.Play();
-            Debug.Log("FUCKKKKKKK");
         }
     }
 }
